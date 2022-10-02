@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tp Integrador Altamirano</title>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>   
+</head>
+<body>
+   
+    <nav class="navbar navbar-expand-sm" style="background-color:rgb(51, 58, 64)">
+        <div class="container-fluid" style="margin-left:5%"> 
+            <img src="./Imagenes/codoacodo.png" alt="Logo" style="width:9%">
+          <a class="navbar-brand text-light" href="BotonHead">Conf Bs As</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-light" href="BotonHead">La conferencia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light text-opacity-50" href=#oradores>Los oradores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light text-opacity-50" href="#lugaryfecha">El lugar y la fecha</a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link text-light text-opacity-50" href=#serorador>Conviértete en orador</a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link text-success" href=https://lunapark.ticketportal.com.ar>Comprar tickets</a>
+              </li>  
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      
+  <!-- Carousel -->
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    
+  <!-- The slideshow/carousel -->
+<div class="carousel-inner">
+    <div class="carousel-item active bg-dark" style="margin: 0px;">
+          <img src="./Imagenes/ba1.jpg" alt="bsas1" class="d-block opacity-50" style="width:100%">
+    </div>
+      
+      <div class="carousel-item bg-dark">
+        <img src="./Imagenes/ba2.jpg" alt="bsas2" class="d-block opacity-50" style="width:100%">
+      </div>
+
+      <div class="carousel-item bg-dark">
+        <img src="./Imagenes/ba3.jpg" alt="bsas3" class="d-block opacity-50" style="width:100%">
+      </div>
+
+       <div class="carousel-caption position-absolute top-50 start-50 translate-end" style="width:40%">
+        <h5 class="text-end">Conf Bs As</h5>
+        <p class="text-end">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet.Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+        <a href="#serorador" class="btn btn-outline-secondary border-light text-light">Quiero ser Orador</a>
+        <a href="https://lunapark.ticketportal.com.ar" class="btn btn-success">Comprar Tickets</a>      
+       </div>
+  </div>
+    
+
+    <p class="h6 text-center">CONOCE A LOS</p>
+    <p class="h2 text-center">ORADORES</p>
+
+
+<!--Tarjetas-->
+<div class="container">
+
+<div class="row">
+  
+  <div class="col-md-4">  
+  <div class="card">
+  <img class="card-img-top" src="./Imagenes/steve.jpg" alt="steve" id="oradores">
+  <div class="card-body">
+    <button type="button" class="btn btn-warning">Javascript</button>
+    <button type="button" class="btn btn-info text-light">React</button>
+  <h4 class="card-title">Steve Jobs</h4>
+  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam officiis doloribus tempora similique, consequuntur quia ea atque, mollitia vel temporibus, iusto dolore beatae soluta aspernatur maxime. Cupiditate rem dolorum repellendus.</p>
+  
+  </div>
+  </div>
+  </div>
+
+  <div class="col-md-4">
+  <div class="card">
+  <img class="card-img-top" src="./Imagenes/bill.jpg" alt="bill">
+  <div class="card-body">
+    <button type="button" class="btn btn-warning">Javascript</button>
+    <button type="button" class="btn btn-info text-light">React</button>
+  <h4 class="card-title">Bill Gates</h4>
+  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, asperiores optio? Voluptates sapiente aperiam ducimus officiis. Magnam, at non ipsa et assumenda iste, obcaecati animi perferendis atque accusantium nihil quasi!</p>
+  
+  </div>
+  </div> </div>
+  <div class="col-md-4">
+  <div class="card">
+  <img class="card-img-top" src="./Imagenes/ada.jpeg" alt="Ada">
+  <div class="card-body">
+    <button type="button" class="btn btn-secondary">Negocios</button>
+    <button type="button" class="btn btn-danger">React</button>
+  <h4 class="card-title">Ada Lovelace</h4>
+  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem atque ab itaque, tenetur quaerat voluptatibus, reprehenderit suscipit, minus adipisci dignissimos facilis earum nesciunt recusandae. Consectetur, corrupti? Qui vitae voluptatibus pariatur.</p>
+ 
+  </div>
+  </div> 
+  </div>
+  
+</div>
+  
+</div>
+  <br><br><br>
+  
+<!--Playa-->
+  <div class="card mb-3" style="width:100%">
+    <div class="row g-0">
+        <div class="col-md-6">
+          <img src="./Imagenes/honolulu.jpg" class="img-fluid rounded-start" alt="playa" id="lugaryfecha">
+        </div>
+        <div class="col-md-6" style="background-color:rgb(51, 58, 64)">
+          <div class="card-body ">
+            <h5 class="card-title text-light">Bs As - Octubre</h5>
+            <p class="card-text text-light text-opacity-75">Buenos Aires es la provinncia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estaudinenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la cudad y el condado de Honolulu han formado una ciudad condado consolidado que cubre toda la ciudad (aproximadamente 600 Km2 de superficie).</p>
+            <a href="https://turismo.buenosaires.gob.ar/es" class="btn btn-outline-secondary border-light text-light">Conocé más</a>
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+  <p class="h6 text-center">CONVIÉRTETE EN UN</p>
+  <p class="h2 text-center">ORADOR</p>
+  <p class="h6 text-center">Anotate como orador para dar una charla ignite. Cuéntanos</p>
+
+
+  <!--Formulario-->
+  <div class="container">
+  <div class="row">
+      <div class="col-md-6" id="serorador">
+      <label for="inputnombre" class="form-label"></label>
+      <input type="text" class="form-control" id="Nombre" placeholder="Nombre">
+    </div>
+    <div class="col-md-6">
+      <label for="inputapellido" class="form-label"></label>
+      <input type="text" class="form-control" id="Apellido" placeholder="Apellido">
+      </div>
+      
+      <div class="col-md-12">
+        <br>
+        <textarea class="form-control" name="tema" id="tema" cols="30" rows="6" placeholder="Sobre qué quieres hablar?"></textarea>
+      </div>
+      <div class="d-grid gap-2">
+        <br>
+        <button style="background-color:rgb(128, 209, 21)" class="btn text-light" type="button" href="">Enviar</button>
+      </div>
+</div>
+</div>
+<br><br><br>
+
+<!--footer-->
+<nav class="navbar navbar-expand-sm" style="background-color:rgba(0, 41, 57, 0.9)">
+    <div class="collapse navbar-collapse justify-content-center" id="menufooter">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link text-light" href="https://www.educativa.com/wp-content/uploads/2020/10/faqs_vc_es.pdf">Preguntas<br>Frecuentes</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link text-light" href="mailto:codoacodo@gmail.com subjet=Quiero ser orador&body=Quiero hablar sobre:">Contáctanos</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link text-light" href="https://www.buenosaires.gob.ar/medios/institucional-subsecretaria-de-medios-y-prensa/dg-coordinacion-de-medios-y-prensa">Prensa</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link text-light" href="https://www.eventbrite.com.ar/d/argentina--buenos-aires/conferences/">Conferencias</a>
+        </li>  
+        
+        <li class="nav-item">
+          <a class="nav-link text-light" href="https://docplayer.es/docs-images/56/9272470/images/page_6.jpg">Terminos y<br>Condiciones</a>
+        </li>
+        
+        <li class="nav-item text-light">
+          <a class="nav-link text-light" href="https://www.eventosyconferenciasue.com/corporativo/proteccion-datos">Privacidad</a>
+        </li>
+        
+        <li class="nav-item text-light">
+          <a class="nav-link text-light" href="https://conferenciasmotivacionales.net/2039671_conferencias-y-seminarios-para-jovenes--universidades-y-escuelas.html">Estudiantes</a>
+        </li>
+         
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+  </body>
+  </html>
+  
